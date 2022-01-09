@@ -22,6 +22,7 @@ h1 {
 
 h2 {
   font-size: 48px;
+  margin-top: 10px;
 }
 
 h3 {
@@ -100,4 +101,15 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+@media (max-width: 414px) {
+  img {
+    display: none;
+  }
+  body {
+    text-align: center;
+  }
+  .project-title {
+    text-align: center;
+  }
 }
